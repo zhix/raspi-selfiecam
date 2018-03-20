@@ -10,6 +10,8 @@ cd twython
 sudo python setup.py install
 ```
 
+For more information, read documentation: https://twython.readthedocs.io/en/latest/index.html
+
 2. Enabling camera
 Fix the camera into Raspberry Pi. You may follow this guide for more instruction in [setting it up physically] (https://www.raspberrypi.org/learning/getting-started-with-picamera/)
 
