@@ -18,7 +18,8 @@ CONSUMER_SECRET = 'glU63NGYMH0gIbiwYkLXlPPECApiQSmyNqZTtOS2uOfc7NUGWV'
 ACCESS_KEY = '860443137768017920-o1EavrwRT2PB4XecXvwY8JQ1appHpgg'
 ACCESS_SECRET = '4Le2uqnZBlbyShNTXkVgkrLRfhFPOjPpxan6GEG5rXslk'
 
-api = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET) 
+api = Twython(CONSUMER_KEY,CONSUMER_SECRET,
+	ACCESS_KEY,ACCESS_SECRET) 
 
 led1 = LED(26)
 led2 = LED(13)
@@ -115,7 +116,10 @@ while True:
 		# img.show()
 
 		try: 
-			api.update_status_with_media(media=photo, status='Come and join us on the KEMBARA #mydigitalmaker BERSAMA PINTAR bus, take a selfie and get Tweeted!')
+			## api.update_status_with_media(media=photo, status='Come and join us on the KEMBARA #mydigitalmaker BERSAMA PINTAR bus, take a selfie and get Tweeted!')
+			response = api.upload_media(media=photo)
+			api.update_status(status='Come and join us on the KEMBARA #mydigitalmaker BERSAMA PINTAR bus, take a selfie and get Tweeted!', media_ids=[response['media_id']])
+
 			msg2 = "Your photo is now uploaded on Twitter! Go check it out @DigitalMakerBot"
 			sleep(5)
 		except: 
