@@ -13,10 +13,10 @@ from twython import Twython
 
 # import Image
 
-CONSUMER_KEY = 'AmVfORMpEEuT2ZNY7b3gAyo75'
-CONSUMER_SECRET = 'glU63NGYMH0gIbiwYkLXlPPECApiQSmyNqZTtOS2uOfc7NUGWV'
-ACCESS_KEY = '860443137768017920-o1EavrwRT2PB4XecXvwY8JQ1appHpgg'
-ACCESS_SECRET = '4Le2uqnZBlbyShNTXkVgkrLRfhFPOjPpxan6GEG5rXslk'
+CONSUMER_KEY = 'AmVf________________yo75'
+CONSUMER_SECRET = 'gl_________________________________uOfc7NUGWV'
+ACCESS_KEY = '860_____________________________________Q1appHpgg'
+ACCESS_SECRET = '4Le2_________________________________rXslk'
 
 api = Twython(CONSUMER_KEY,CONSUMER_SECRET,
 	ACCESS_KEY,ACCESS_SECRET) 
