@@ -5,10 +5,10 @@ import time
 
 ## Twitter account = ChumbakaAsia
 
-CONSUMER_KEY = 'TaqYW2bVCtBqoT03blDN5Fslp'
-CONSUMER_SECRET = 'pJwdQmOjrdyuu13ZaqkcqCrSL6JAPjhNV34FnKPMzFRDfhXkQz'
-ACCESS_KEY = '4900136473-pGYV6hO8jWgPFbViaxnLhl1766fwTw7uDef24ta'
-ACCESS_SECRET = 'lxtu7VsSi3aPSLEZ1Gyq4pN6iNdkSNxpaLmR6LbD8fUkL'
+CONSUMER_KEY = 'T________________________________________p'
+CONSUMER_SECRET = 'pJwdQmOjr___________________________kQz'
+ACCESS_KEY = '4________________________________________ta'
+ACCESS_SECRET = 'lxtu7_________________________________UkL'
 
 print("Getting ready...")
 
